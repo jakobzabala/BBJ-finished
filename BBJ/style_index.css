@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E0804D;
+  font-family: uniwars,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+
+  overflow-x: hidden;
+/*  overflow-y: hidden; */
+
+}
+.index-page{
+  display: none;
+  position: absolute;
+
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/*------------------------------------------------*/
+
+
+.afexlogo{
+  z-index: 99;
+  margin-top: 80px;
+  margin-left: 5vw;
+
+  transform: skewX(-12deg);
+
+
+  width: 70vw;
+  height: auto;
+}
+.afex{
+    cursor: pointer;
+}
+
+#b12-afex, #b22-afex,
+#a2-afex, #y2-afex, #d2-afex,
+#e2-afex, #e4-afex, #j2-afex{
+  visibility: hidden;
+}
+
+#b1-afex, #b12-afex{
+  transform: translate(0px, 25px);
+}
+#b2-afex, #b22-afex{
+  transform: translate(400px, 25px);
+}
+
+
+
+#j1-afex, #j2-afex {
+  transform: translate(1000px, 0px);
+}
+#a1-afex, #a2-afex {
+  transform: translate(1400px, 0px);
+}
+#y1-afex, #y2-afex {
+  transform: translate(1800px, 0px);
+}
+#d1-afex, #d2-afex {
+  transform: translate(2200px, 0px);
+}
+#e3-afex, #e4-afex {
+  transform: translate(2600px, 0px);
+}
+#e1-afex, #e2-afex {
+  transform: translate(3000px, 0px);
+}
+
+
+
+
+/*------------------------------------------------*/
+.feature{
+  z-index: -1000;
+}
+#featureAnimation {
+
+
+  position: fixed;
+  width: 1000px;
+  height: 700px;
+  left: 0px;
+  bottom: 0vh;
+
+}
+
+.dot {
+  position: absolute;
+  background-color: #91e600;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  will-change: transform;
+}
+
+.clikPHY{
+  z-index: 999999999;
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  left: 100px;
+  top: 35vh;
+  cursor: pointer;
+/*
+  border-radius: 2px;
+  border-color: white;
+  border-style: dashed;
+*/
+
+}
+
+/*------------------------------------------------*/
+
+
+
+.shape1{
+  position: fixed;
+  width: 500px;
+  left: 100px;
+  top: 35vh;
+  overflow: hidden;
+}
+#smallcircle, #afex2, #afex3, #afex4, #afex5, #afex6, #afex7, #afex8{
+  visibility: hidden;
+}
+
+
+/*------------------------------------------------*/
+
+
+
+.first-lines{
+  fill:none;
+  stroke:#BECC34;
+  stroke-width:4.7;
+  stroke-miterlimit:10;
+}
+.launchpad{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+/*  max-width: 85vw;
+  max-height: 85vh;
+
+  min-width: 30vw;
+  min-height: 30vh;
+*/
+  width: 1000px;
+  float: right;
+  right: -60px;
+  position: absolute;
+}
+.topp{
+
+  bottom: 175px;
+}
+.bottomm{
+
+  bottom: -25px;
+}
+.menu{
+  position: absolute;
+  z-index: 200;
+  bottom: 8px;
+  left: 43px;
+  text-decoration: none;
+  letter-spacing: 0.075em;
+  text-shadow: 0px 3px 6px rgba(154, 50, 146, 0.41);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+
+#lhov1, #lhov2{
+  display: none;
+}
+#lhov1C, #lhov2C{
+  display: none;
+}
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+@media all and (max-width: 1200px){
+
+.launchpad{
+  width: 900px;
+}
+.topp{
+
+  bottom: 140px;
+}
+.bottomm{
+
+  bottom: -55px;
+}
+}
+
+@media all and (max-width: 1000px){
+
+  .afexlogo{
+    z-index: 99;
+    margin-top: 80px;
+    margin-left: 8vw;
+
+
+    width: 85vw;
+  }
+.launchpad{
+  width: 900px;
+}
+
+}
+
+
+@media all and (max-width: 860px){
+
+.topp{
+
+  bottom: 165px;
+}
+.bottomm{
+
+  bottom: -35px;
+}
+.shape1{
+
+  left: 0px;
+  top: 35vh;
+}
+.clikPHY{
+  width: 400px;
+  height: 500px;
+  left: 0px;
+}
+
+}
+
+@media all and (max-width: 780px){
+
+.launchpad{
+  width: 800px;
+}
+.topp{
+  bottom: 15px;
+}
+.bottomm{
+  bottom: -185px;
+  right: -50px;
+}
+
+}
+
+@media all and (max-width: 700px){
+
+.clikPHY{
+  width: 250px;
+  height: 400px;
+
+}
+}
+@media all and (max-width: 600px){
+
+  .clikPHY{
+    width: 200px;
+    height: 400px;
+    left: 0px;
+  }
+}
+@media all and (max-width: 501px){
+  .launchpad{
+    width: 700px;
+  }
+  .topp{
+    bottom: -20px;
+  }
+  .bottomm{
+    bottom: -178px;
+    right: -42px;
+  }
+
+  .shape1{
+    left: -10%;
+    top: 8vh;
+    z-index: -999999;
+  }
+  .clikPHY{
+    width: 100%;
+
+    height: 260px;
+    top: 22vh;
+
+  }
+
+
+
+}
+
+/*------------------------------------------------*/

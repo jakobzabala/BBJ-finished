@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: uniwars,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #E0804D;
+}
+/*-------------------*/
+
+
+.mainmmmdrop {
+  position: absolute;
+  float: right;
+  right: 30px;
+  overflow: visible;
+  opacity: 1;
+  height: auto;
+  width: 90vw;
+
+
+}
+
+#mmm11954 {
+    top: 100px;
+}
+#mmmDWF{
+  top: 240px;
+}
+.greyygloww {
+  opacity: 0;
+}
+#end1, #end2  {
+  visibility: hidden;
+}
+#start1, #start2 {
+   cursor: pointer;
+   opacity: 1;
+}
+ .iimmgg{
+   cursor: pointer;
+ }
+.textdecor{
+  fill: white;
+  text-decoration: none;
+  letter-spacing: 0.075em;
+  text-shadow: 0px 3px 6px rgba(154, 50, 146, 0.41);
+
+}
+.mainname{
+    font-size: 34px;
+}
+.number1{
+    font-size: 28px;
+}
+
+.textheader{
+  font-size: 24px;
+}
+.textcopy{
+  font-size: 12px;
+}
+.proj11954, .projDWF{
+  cursor: pointer;
+}
+.glowww {
+  opacity: 0;
+}
+.blancmargin{
+  position: absolute;
+  bottom: 0px;
+
+  width: 100vw;
+  height: 100px;
+}
+
+.iimmgg{
+  opacity:1;
+}
